@@ -1,0 +1,145 @@
+{
+    "id": "6a0de778-c9c7-4a33-a135-41e666ce165c",
+    "created_at": "2024-12-30T10:58:56Z",
+    "update_at": "2024-12-30T11:00:51Z",
+    "global_timeout": 90,
+    "tunnel_name": "",
+    "start_time": "2024-12-30T10:59:12Z",
+    "end_time": "2024-12-30T11:00:51Z",
+    "summary": {
+        "total_time": 99000000000,
+        "execution_time": 99000000000,
+        "total_tasks": 2,
+        "build_time_consumed": 173000000000,
+        "jobTestExecutionTime": "1m5s",
+        "failed_tasks": 0,
+        "total_stage_info": {
+            "prerun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 2
+            },
+            "scenario": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 2
+            },
+            "test_discovery": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 2
+            }
+        },
+        "status": "completed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=6a0de778-c9c7-4a33-a135-41e666ce165c"
+    },
+    "tasks": [
+        {
+            "id": "bca18947-6858-4ed5-a358-766171696a5d",
+            "os": "mac",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2024-12-30T10:59:07Z",
+            "update_at": "2024-12-30T11:00:51Z",
+            "start_time": "2024-12-30T10:59:12Z",
+            "end_time": "2024-12-30T11:00:51Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "093b6bcb-b2c0-4d6a-88aa-279f5069ad39",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2024-12-30T10:59:14Z",
+                    "started_at": "2024-12-30T10:59:15Z",
+                    "updated_at": "2024-12-30T10:59:17Z",
+                    "order": 1,
+                    "task_number": 1
+                },
+                {
+                    "id": "6fa30e96-e84a-4228-ba83-690621cdf91f",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2024-12-30T10:59:18Z",
+                    "started_at": "2024-12-30T10:59:19Z",
+                    "updated_at": "2024-12-30T10:59:20Z",
+                    "order": 2,
+                    "task_number": 1
+                },
+                {
+                    "id": "79983c54-211f-4a7f-966a-92b1aacb2fe2",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "ritam.py",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2024-12-30T10:59:20Z",
+                    "started_at": "2024-12-30T10:59:24Z",
+                    "updated_at": "2024-12-30T11:00:49Z",
+                    "order": 3,
+                    "task_number": 1
+                }
+            ]
+        },
+        {
+            "id": "0fd04100-dd94-4a69-b01d-b9fe084ed55e",
+            "os": "mac",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2024-12-30T10:59:07Z",
+            "update_at": "2024-12-30T11:00:27Z",
+            "start_time": "2024-12-30T10:59:13Z",
+            "end_time": "2024-12-30T11:00:27Z",
+            "group_number": 2,
+            "stages": [
+                {
+                    "id": "188d58d2-9ec4-4ee2-a727-498c29eab845",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "ritam1.py",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2024-12-30T10:59:19Z",
+                    "started_at": "2024-12-30T10:59:25Z",
+                    "updated_at": "2024-12-30T11:00:25Z",
+                    "order": 3,
+                    "task_number": 2
+                },
+                {
+                    "id": "4932dea1-85c7-4bda-98c9-e8d0a7744de8",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2024-12-30T10:59:18Z",
+                    "started_at": "2024-12-30T10:59:19Z",
+                    "updated_at": "2024-12-30T10:59:19Z",
+                    "order": 2,
+                    "task_number": 2
+                },
+                {
+                    "id": "60cddea6-93f4-493a-93e5-38ccfc1a20da",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2024-12-30T10:59:15Z",
+                    "started_at": "2024-12-30T10:59:15Z",
+                    "updated_at": "2024-12-30T10:59:18Z",
+                    "order": 1,
+                    "task_number": 2
+                }
+            ]
+        }
+    ],
+    "test_ids": null
+}

@@ -1,0 +1,26 @@
+---
+version: 0.1
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+
+runson: mac
+concurrency: 2
+
+autosplit: true
+
+env:
+ TARGET_OS: MacOS Catalina
+
+pre:
+  - pip3 install selenium
+
+testDiscovery:
+  type: raw
+  mode: dynamic
+  shell: bash
+  command: find . -name "*.py" | sed 's|^\./||'
+
+testRunnerCommand: python3 $test
+
+jobLabel: [selenium-pyunit, win, autosplit]
